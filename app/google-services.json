@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "44969985187",
+    "firebase_url": "https://taxiapp-a39ca.firebaseio.com",
+    "project_id": "taxiapp-a39ca",
+    "storage_bucket": "taxiapp-a39ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44969985187:android:908b658aea87b91e",
+        "android_client_info": {
+          "package_name": "com.example.lenovossd.driverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44969985187-rqcr6rkqngr099h3qrbnk1reeef73hth.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovossd.driverapp",
+            "certificate_hash": "a3252f16266433b157cfd6a8cd856d083680c1b5"
+          }
+        },
+        {
+          "client_id": "44969985187-kmb467epc7pfd1pak7g6f0s30pp9ue7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu_ByS9dnuKiSp7boYuddwrsQ0wLgb0us"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44969985187-kmb467epc7pfd1pak7g6f0s30pp9ue7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

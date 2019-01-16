@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".CustomerCall">
+<TextView
+    android:id="@+id/txt_count_down"
+    android:layout_centerHorizontal="true"
+    android:text="30"
+    android:textSize="50sp"
+    android:textColor="@android:color/white"
+    android:layout_above="@id/map_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/map_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/map_image"
+        android:layout_centerInParent="true"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@android:color/white"/>
+    <LinearLayout
+        android:layout_below="@id/map_image"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtTime"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtDistance"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtAddress"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_Accept"
+            android:background="@drawable/btn_sign_in_backgournd"
+            android:textColor="@android:color/white"
+            android:text="Accept"
+            android:layout_marginRight="6dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_Decline"
+            android:background="@drawable/btn_register_backgournd"
+            android:textColor="@color/btnRegister"
+            android:text="Decline"
+            android:layout_marginLeft="6dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundresize"
+    android:id="@+id/root_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_marginTop="70dp"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text=" TRAVEL THROUGH"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Driver app"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_forgot_password"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="FORGOT PASSWORD ? JUST CLICK HERE !"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/bottomText"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="16dp"
+        android:layout_above="@id/txt_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_sign_in"
+            android:background="@drawable/btn_sign_in_backgournd"
+            android:textColor="@android:color/white"
+            android:text="SIGN IN "
+            android:layout_marginRight="6dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_Register"
+            android:background="@drawable/btn_register_backgournd"
+            android:textColor="@color/btnRegister"
+            android:text="REGISTER "
+            android:layout_marginLeft="6dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>
